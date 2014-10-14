@@ -1,0 +1,87 @@
+body {
+  font: 14px Helvetica, Arial, sans-serif;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+#textarea_container{
+    width: 32%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1%;
+}
+
+#textarea{
+    display: block;
+    font: 20pt Helvetica, Arial, sans-serif;
+    text-align: justified;
+    width: 100%;
+    height: 150px;
+    max-height: 300px;
+    overflow: auto;
+  -webkit-box-sizing: border-box; /* Android ≤ 2.3, iOS ≤ 4 */
+     -moz-box-sizing: border-box; /* Firefox ≤ 28 */
+          box-sizing: border-box; /* Chrome, Firefox 29+, IE 8+, Opera, Safari 5.1 */
+}
+
+#textarea:focus{
+    border-color: #46BFBD;
+    box-shadow: 0px 0px 10px #46BFBD;
+}
+
+#check_button {
+    width: 100%;
+    background-color: #46BFBD;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 15pt;
+    cursor: pointer;
+}
+
+.chart_container {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    background-color: #eee;
+    margin: 0 1%;
+    padding-bottom: 20px;
+}
+
+.chart_container h2{
+    margin: 30px 0;
+}
+
+#error_list_container{
+   height: 190px;
+   background-color: #eee;
+   margin-top: 20px;
+   text-align: center;
+   padding-top: 5px;
+}
+
+#error_list_container h2 {
+    margin: 0;
+}
+
+#error_list {
+    list-style-type: none;
+    overflow: auto;
+    padding: 0;
+    height: 150px;
+}
+
+#error_list li{
+    display: block;
+    padding: 10px;
+    font-size: 12pt;
+}
+
+#error_list li:nth-child(odd){
+    background-color: #f4f4f4;
+}
